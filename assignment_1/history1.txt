@@ -1,0 +1,385 @@
+    1  /cita/local/bin/passwd
+    2  ls
+    3  pwd
+    4  ls
+    5  firefox
+    6  ls -la
+    7  more Music
+    8  top
+    9  cat
+   10  la
+   11  ls
+   12  ls -la
+   13  cat
+   14  finger Murray
+   15  ls -la
+   16  pwd
+   17  ls -la bin
+   18  ls > junk.txt
+   19  ls
+   20  ls -la
+   21  more junk.txt
+   22  ls junk*
+   23  ls ju*
+   24  ls M*
+   25  ls m*
+   26  rm junk.txt 
+   27  ls
+   28  rm junk.txt
+   29  ls
+   30  ls junk.txt
+   31  mkdir Test_CTA
+   32  ls -la
+   33  ls
+   34  cd Test_CTA
+   35  pwd
+   36  ls -la
+   37  ls .
+   38  ls ..
+   39  man ls
+   40  man la
+   41  man ls
+   42  ls -lap
+   43  ls -p
+   44  ls -la
+   45  pwd
+   46  cd student06
+   47  cd home-2
+   48  pwd
+   49  cd /
+   50  pwd
+   51  ls
+   52  ls - la
+   53  ls -la
+   54  mkdir CTA200
+   55  ls
+   56  cd CTA200
+   57  pwd
+   58  git clone https://github.com/CITA/CTA200H.git
+   59  ls
+   60  ls -la
+   61  ls
+   62  ls -a
+   63  more .git
+   64  ls
+   65  pwd
+   66  ls -l
+   67  rm -rf CTA200
+   68  git clone https://github.com/CITA/CTA200H.git
+   69  rm -rf CTA200H
+   70  git clone https://github.com/CITA/CTA200H.git
+   71  ls -la
+   72  cd ..
+   73  pwd
+   74  ls
+   75  cd CTA200
+   76  ls
+   77  ls -la
+   78  cd lec
+   79  cd CTA200
+   80  pwd
+   81  ls -la
+   82  cd CTA200H
+   83  pwd
+   84  cd .git
+   85  pwd
+   86  more hello.py
+   87  cat hello.py
+   88  python
+   89  ls
+   90  pwd
+   91  cd CTA200
+   92  ls -la
+   93  cd CTA200H
+   94  cd .git
+   95  cd /mnt/scratch-lustre
+   96  ls -la
+   97  whoami
+   98  cd student06
+   99  cd ~cta200
+  100  cd ~cta200/
+  101  ls -la
+  102  pwd
+  103  cd /mnt/scratch-lustre
+  104  pwd
+  105  ls -l
+  106  cd student06
+  107  pwd
+  108  ls -l
+  109  ls -la
+  110  pwd
+  111  fine -name '*auss*'
+  112  find -name '*auss*'
+  113  cd CTA200
+  114  cd ..
+  115  pwd
+  116  cd ..
+  117  pwd
+  118  cd ..
+  119  pwd
+  120  ls
+  121  cd student06
+  122  cd /home
+  123  pwd
+  124  cd /
+  125  cd cita/d
+  126  cd /
+  127  ls
+  128  ls mnt/
+  129  cd /home 
+  130  ls
+  131  cd /mnt/scratch-lustre/
+  132  cd student06
+  133  pwd
+  134  ls
+  135  ls -l
+  136  ls -la
+  137  pwd
+  138  dir
+  139  cp -r ~cta200/Research/gauss2d .
+  140  pwd
+  141  ls -l
+  142  ls -la
+  143  cd gauss2d
+  144  pwd
+  145  dir
+  146  more gauss2d
+  147  pwd
+  148  more gauss2d
+  149  cd gauss2d
+  150  cd ..
+  151  pwd
+  152  cd gauss2d
+  153  m gaussd
+  154  more gauss2d
+  155  ls
+  156  dir
+  157  cd gauss2d
+  158  cd ..
+  159  cd gauss2d
+  160  ls
+  161  cd /mnt/scratch-lustre/
+  162  ls
+  163  cd student06
+  164  pwd
+  165  cd CTA200
+  166  ls
+  167  cp -r ~cta200/Research/gauss2d
+  168  dir
+  169  less gauss2d.cc
+  170  cd ..
+  171  less gauss.cc
+  172  cd gauss2d
+  173  pwd
+  174  cd student06
+  175  cp -r ~cta200/Research/gauss2d
+  176  more gauss2d
+  177  dir
+  178  ls
+  179  cd gauss2d
+  180  ls
+  181  less gauss2d.cc
+  182  ./gauss2d
+  183  dir
+  184  ./gauss2d.cc
+  185  pwd
+  186  dir
+  187  vim plot.py
+  188  g++ gauss2d.cc -o gauss2d
+  189  ./gauss2d
+  190  make
+  191  ls
+  192  ls -la
+  193  rm -rf gauss2d
+  194  ls -la
+  195  make
+  196  ./gauss2d
+  197  ls -la
+  198  make
+  199  ls
+  200  rm -rf gauss2d
+  201  ls
+  202  make
+  203  gauss2d
+  204  ./gauss2d
+  205  ls
+  206  ls -la
+  207  ls -lt
+  208  pwd
+  209  ./gauss2d > data.txt
+  210  top
+  211  ls
+  212  ls -la
+  213  ./gauss2d
+  214  ls
+  215  ls -la
+  216  ./plot.py
+  217  ./plot.py < data.txt
+  218  module load python/2.7.12
+  219  module load gcc/5.4.0
+  220  module load python/2.7.12
+  221  ./plot.py < data.txt
+  222  ls -la
+  223  ./plot.py < data.txt
+  224  dir
+  225  pwd
+  226  cd ..
+  227  pwd
+  228  dir
+  229  pwd
+  230  cd
+  231  pwd
+  232  git config
+  233  git config --global user.name "Milica"
+  234  git config --user.email milicaivetic2000@gmail.com
+  235  cd
+  236  mkdir -p repos.gauss2d.txt
+  237  mkdir -p repos.gauss2d.git
+  238  cd repos/
+  239  cd repod
+  240  cd repos
+  241  pwd
+  242  cd repos
+  243  cd ..
+  244  cd repos/gauss2d.git
+  245  mkdir -p repos.gauss2d.git
+  246  cd
+  247  mkdir -p repos/gauss2d.git
+  248  cd repos/gauss2d.git
+  249  git init --bare
+  250  cd /mnt/scratch-lustre/student06/gauss2d
+  251  git init
+  252  echo "*.o" > .gitignore
+  253  m .gitignore
+  254  more .gitignore
+  255  dir
+  256  git add gauss2d.cc Makefile plot.py .gitignore
+  257  git status
+  258  git commit -m "Working 2D Gaussian array generation code and plotting script"
+  259  git log
+  260  git status
+  261  git log
+  262  git remote add origin /home/student06/repos/gauss2d.git
+  263  cat .git/config
+  264  git log
+  265  git status
+  266  dir
+  267  pwd
+  268  dir
+  269  ls -la
+  270  git push --set-upstream origin master
+  271  vim gauss2d.cc
+  272  vim plot.py
+  273  git status
+  274  git diff
+  275  git add -u
+  276  git status
+  277  git commit -m "Added program description. Added comments"
+  278  git status
+  279  git log
+  280  git remote origin /home/student06/repos/gauss2d.git
+  281  cat .git/config
+  282  git push --set-upstream origin master
+  283  git log
+  284  gitk
+  285  exit
+  286  echo "# CTA200" >> README.md
+  287  git init
+  288  git add README.md
+  289  git commit -m "first commit"
+  290  git config --global user.name Milica
+  291  git config --global user.email milicaivetic2000@gmail.com
+  292  git branch -M main
+  293  git remote add origin https://github.com/milica-i/CTA200.git
+  294  git push -u origin main
+  295  git remote add origin git@github.com:milica-i/CTA200.git
+  296  git push -u origin main
+  297  pwd
+  298  echo "# CTA200" >> README.md
+  299  git init
+  300  git add README.md
+  301  git commit -m "first commit"
+  302  git log
+  303  git status
+  304  git branch -M main
+  305  git remote add origin git@github.com:milica-i/CTA200.git
+  306  git push -u origin main
+  307  pwd
+  308  cd .git
+  309  pwd
+  310  git push -u origin main
+  311  pwd
+  312  cd cta200_assignment1
+  313  git clone git@github.com:milica-i/CTA200.git
+  314  cd CTA200
+  315  pwd
+  316  cd ..
+  317  rm -rf CTA200
+  318  ls
+  319  rm -rf README.md
+  320  ls
+  321  git clone git@github.com:milica-i/CTA200.git
+  322  git clone https://github.com/milica-i/CTA200.git
+  323  git remote add origin https://github.com/milica-i/CTA200.git
+  324  ls
+  325  cd CTA200
+  326  ls
+  327  ls -la
+  328  git add README.md
+  329  echo "# CTA200" >> README.md
+  330  git add README.md
+  331  vim README.md
+  332  git status
+  333  git commit -m "README.md file"
+  334  git log
+  335  git add LICENSE.txt
+  336  echo "# CTA200" >> LICENSE.txt
+  337  git add LICENSE.txt
+  338  vim LICENSE.txt
+  339  git status
+  340  git commit -m "LICENSE"
+  341  git log
+  342  pwd
+  343  ls
+  344  ls -la
+  345  pwd
+  346  mkdir assignment 1
+  347  pwd
+  348  cd assignment1
+  349  cd assignment 1
+  350  pwd
+  351  cd ..
+  352  pwd
+  353  rm -rf assignment 1
+  354  pwd
+  355  ls
+  356  cd ..
+  357  ls
+  358  cd CTA200
+  359  mkdir assignment_1
+  360  cd assignment_1
+  361  pwd
+  362  ls
+  363  cd CTA200
+  364  cd ..
+  365  pwd
+  366  ls
+  367  cd ..
+  368  pwd
+  369  ls
+  370  cd Test_CTA
+  371  ls
+  372  cd ..
+  373  pwd
+  374  cd CTA200
+  375  cd assignment_1
+  376  pwd
+  377  ls
+  378  cd ..
+  379  ls
+  380  cd assignment_1
+  381  pwd
+  382  ls
+  383  history
+  384  pwd
+  385  history > history1.txt
